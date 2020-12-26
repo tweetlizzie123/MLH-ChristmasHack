@@ -1,0 +1,38 @@
+body {
+  Background-color: rgba(0,152,223,0.4);
+
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  Font-size: 100px
+}
+
+div.tabs {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3px;
+  padding: 1px;
+  background-color: rgb(255,63,63);
+  border: 1px solid rgb(255,0,0);
+}
+
+h2 {
+  Color: rgb(255,255,255);
+  Text-align: left;
+}
+
+.paragraph-style {
+  background-color: white;
+
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+
+
