@@ -1,0 +1,131 @@
+
+body {
+  Background-color: white;
+  background-image: linear-gradient(rgb(24, 41, 126),white);
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  Font-size: 100px
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  background-color: rgba(24, 41, 126,0.6);
+  overflow: hidden;
+}
+
+.border {
+  border: 3px solid rgba(24, 41, 126,0.6);
+  padding: 15px;
+}
+
+.border2 {
+  border: 3px solid white;
+  padding: 15px;
+}
+
+
+.clearfix {
+  overflow: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: rgba(24, 41, 126);
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: white;
+  color: rgb(24, 41, 126);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.title {
+  color: white;
+  text-shadow: 3px 3px 3px white;
+  font-family: "Audiowide";
+  margin-top: 150px;
+}
+
+.paragraph-style {
+  background-color: white;
+  margin-left: -10px;
+  padding: 50px;
+  margin-top: 150px;
+  font-family: verdana;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.paragraph-style2 {
+  background-color: rgba(24, 41, 126,0.6);
+  color: white;
+  margin-left: -10px;
+  padding: 50px;
+  font-family: verdana;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.paragraph-style3 {
+  background-color: white;
+  margin-left: -10px;
+  padding: 50px;
+  font-family: verdana;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.column {
+  float: left;
+  width: 1345px;
+  padding 50px;
+}
+
+
+@media screen and (max-width:1366px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
