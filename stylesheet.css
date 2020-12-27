@@ -2,7 +2,7 @@
 
 body {
   Background-color: white;
-  background-image: linear-gradient(rgba(0,152,223,0.4),white);
+  background-image: linear-gradient(rgb(24, 41, 126),white);
 }
 
 h1 {
@@ -16,9 +16,7 @@ h1 {
   position: -webkit-sticky;
   position: sticky;
   top: 5px;
-  padding: 1px;
-  background-color: grey;
-  border: 1px solid grey;
+  background-color: rgba(24, 41, 126,0.6);
   overflow: hidden;
 }
 
@@ -30,19 +28,20 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-family: Helvetica;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: rgba(24, 41, 126);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: rgb(24, 41, 126);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -50,37 +49,54 @@ h1 {
   display: none;
 }
 
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+.title {
   color: white;
-  text-align: center;
+  text-shadow: 3px 3px 3px white;
+  font-family: "Audiowide";
 }
 
-li a:hover {
-  background-color: white;
-  color: black;
-}
-
-h2 {
-  Color: rgb(255,255,255);
-  Text-align: left;
-}
 
 .paragraph-style {
   background-color: white;
-  border: 5px solid black;
-  padding: 20px;
-  margin-top: 100px;
+  padding: 50px;
+  margin-top: 50px;
   margin-right: 100px;
   margin-left: 100px;
   font-family: verdana;
   font-size: 15px;
 }
+
+
+.txtmargin {
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.column {
+  float: center;
+  width: 1100px;
+  padding 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:1366px) {
+  .column {
+    width: 100%;
+  }
+
+
+
+
+
+
 
 
 
